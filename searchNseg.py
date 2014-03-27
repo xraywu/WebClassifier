@@ -30,6 +30,7 @@ user_agents = ['Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20130406 Fire
 # Search a term against Google. Change the base URL below to use other search engines.
 def search(query):
     query = urllib2.quote(query)
+    # url = 'http://www.baidu.com/s?wd=%s' % query # To search from Baidu
     url = 'https://www.google.com/search?hl=zh-cn&q=%s' % query
     request = urllib2.Request(url)
     index = random.randint(0, 9)
@@ -70,6 +71,7 @@ for line in lines:
     soup = BeautifulSoup(html)    # Build a html object easy to parse
     
     drugDict = {'drug-name': queryStr, 'drug-type': drugType}    # Every drug has these two features
+    # for content in soup.find_all("div", "c-abstract"): # Parse Baidu page
     for content in soup.find_all("span", "st"):    # Digest for each search result from google
         seg_list = jieba.cut(content.get_text().strip(),cut_all=True)    # Full cut for more features
         #seg_list = jieba.cut_for_search(content.get_text().strip())	# Srarch Engine Mode if want to use

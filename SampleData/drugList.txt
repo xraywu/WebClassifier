@@ -1,4 +1,4 @@
-﻿western	0.9%氯化钠注射液(安徽丰)
+western	0.9%氯化钠注射液(安徽丰)
 western	0.9%氯化钠注射液(安徽丰原100)
 western	0.9%氯化钠注射液(安徽丰原250)
 western	0.9%氯化钠注射液(安徽丰原500)
@@ -1576,7 +1576,7 @@ western	阿斯美胶囊
 western	复方甲氧那明胶囊(阿斯美)
 western	复方甲氧那明胶囊
 western	甲状腺片
-tcm	甲紫溶液
+western	甲紫溶液
 western	注射用尖吻蝮蛇血凝酶(苏)
 western	注射用尖吻蝮蛇血凝酶(苏灵)
 western	间羟胺针(阿拉明)
@@ -2034,7 +2034,7 @@ western	氯沙坦钾氢氯噻嗪片(海捷亚)
 western	氯硝西泮片
 western	复方氯唑沙宗分散片(鲁南贝特)
 western	复方氯唑沙宗胶囊(诗能)
-tcm	麻苯滴鼻液
+western	麻苯滴鼻液
 tcm	麻仁软胶囊
 tcm	麻仁软胶囊(天津)
 tcm	马栗种子提取物片(迈之灵)
